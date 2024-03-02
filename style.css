@@ -1,0 +1,69 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  background-color: azure;
+  margin: 0 auto;
+}
+.field {
+  height: 330px;
+  position: relative;
+  z-index: 1;
+  width: 500px;
+  border-bottom: 3px solid black;
+}
+.ball {
+  margin-left: 40px;
+  position: absolute;
+  z-index: 2;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  left: 0;
+  bottom: 0;
+}
+
+.barrier {
+  position: absolute;
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  right: 0;
+  bottom: 0;
+}
+.barrierTwo {
+  position: absolute;
+  background-color: royalblue;
+  height: 40px;
+  width: 40px;
+  right: 0;
+  bottom: 0;
+}
+.barrierOne {
+  position: absolute;
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  right: 0;
+  bottom: 0;
+}
+.jump-btn,
+.reset-btn {
+  width: 150px;
+  height: 30px;
+  background-color: lavender;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.buttons {
+  margin-top: 30px;
+  display: flex;
+}
+.counter {
+  width: 260px;
+  height: 60px;
+  z-index: 2;
+  font-size: 30px;
+  margin: 10px 0 0 20px;
+}
